@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.MainActivity"
+    android:background="#FF03DAC5"
+    android:orientation="vertical">
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/splash"
+        android:layout_width="500dp"
+        android:layout_height="1000dp"
+        android:layout_marginTop="-100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/giphy" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="457dp"
+        android:layout_height="277dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/bb" />
+
+    <Button
+        android:id="@+id/bt_login"
+        android:layout_width="294dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="135dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:text="@string/login"
+        android:textSize="30sp">
+
+    </Button>
+
+    <Button
+        android:id="@+id/about"
+        android:layout_width="294dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25sp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:text="@string/about"
+        android:textSize="30sp">
+
+    </Button>
+
+
+
+</LinearLayout>

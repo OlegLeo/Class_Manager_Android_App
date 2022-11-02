@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF03DAC5"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".views.AddTurmaActivity$AboutActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:text="Desenvolvido por: Oleg Leonidov"
+            android:textSize="22sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="377dp"
+            android:layout_height="232dp"
+            android:layout_marginTop="22dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="Relativamente aos elementos, gostava de ter tido mais tempo para implementar mais elementos para garantir uma melhor experiencia de utilizador e funcionalidades. Fora do que foi pedido, apenas adicionei alguns tratamentos de erros ao longo da aplicação."
+            android:textSize="22sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:text="Acesso Autenticação"
+            android:textSize="22sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:text="Login: admin"
+            android:textSize="22sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:text="Palavra-Passe: 123"
+            android:textSize="22sp">
+
+        </TextView>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="Para aceder a morada/enviar email/ligar do aluno, basta clicar em cima da TEXTVIEW no menu de editor de cada aluno."
+            android:textSize="20sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="AUTOAVALIAÇÃO: 16"
+            android:textSize="30sp">
+        </TextView>
+    </LinearLayout>
+</LinearLayout>

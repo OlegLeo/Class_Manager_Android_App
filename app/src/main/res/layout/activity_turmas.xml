@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FF03DAC5"
+    tools:context=".views.TurmasActivity">
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_textoano"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="75dp"
+            android:textColor="@color/black"
+            android:textSize="35sp"
+            android:gravity="center"
+            android:text="@string/Year">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/et_editarano"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="135dp"
+            android:textSize="25sp"
+            android:backgroundTint="@color/white"
+            android:inputType="number"
+            android:text="">
+
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:id="@+id/tv_textodesignacao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="75dp"
+
+            android:text="@string/Definition"
+            android:textColor="@color/black"
+            android:textSize="35sp">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/et_editardesignacao"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="25sp"
+            android:backgroundTint="@color/white"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+            android:text="">
+
+        </EditText>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+
+        <TextView
+            android:id="@+id/tv_texto_turma_alunosexistentes"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="35sp"
+            android:text="@string/Students"
+            android:textColor="@color/black"
+            android:layout_marginLeft="75dp"
+
+            android:layout_marginBottom="5dp"/>
+
+        <Spinner
+            android:id="@+id/spinner_alunos_existentes"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="60dp"
+            android:backgroundTint="@color/black"
+            android:textSize="100sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+
+
+        <Button
+            android:id="@+id/bt_removerturma"
+            android:layout_width="match_parent"
+            android:backgroundTint="#FF018786"
+            android:textSize="13sp"
+            android:layout_height="wrap_content"
+            android:text="@string/Remove">
+        </Button>
+
+
+        <Button
+            android:layout_marginStart="12dp"
+            android:id="@+id/bt_cancelareditarturma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:textSize="13sp"
+            android:textColor="@color/black"
+            android:text="@string/Cancel">
+
+        </Button>
+
+        <Button
+            android:id="@+id/bt_atualizarturma"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            android:text="@string/Update">
+
+        </Button>
+
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_turmas"
+        android:layout_width="match_parent"
+        android:layout_height="421dp"
+        android:layout_marginTop="5sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="268dp" />
+
+    <Button
+        android:id="@+id/bt_adicionarturma"
+        android:layout_marginTop="5dp"
+        android:layout_width="294dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:text="@string/Add">
+    </Button>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp"
+        android:gravity="center">
+
+
+    <Button
+        android:id="@+id/bt_ordenar_turma_maior"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:background="@drawable/up">
+    </Button>
+
+    <Button
+        android:id="@+id/bt_ordenar_turma_menor"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/black"
+        android:textSize="20sp"
+        android:background="@drawable/down">
+    </Button>
+    </LinearLayout>
+</LinearLayout>

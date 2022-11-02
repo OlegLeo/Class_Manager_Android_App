@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login">Entrar</string>
+    <string name="about">Sobre</string>
+    <string name="GoBack">Voltar</string>
+    <string name="SignIn">Aceder</string>
+    <string name="MainMenu">Menu Principal</string>
+    <string name="Classes">Turmas</string>
+    <string name="Students">Alunos</string>
+    <string name="Logout">Sair</string>
+    <string name="Class">Turma</string>
+    <string name="Phone_Number">Telefone</string>
+    <string name="Address">Morada</string>
+    <string name="Name">Nome</string>
+    <string name="Add">Adicionar</string>
+    <string name="Update">Atualizar</string>
+    <string name="Cancel">Cancelar</string>
+    <string name="Remove">Remover</string>
+    <string name="Definition">Designação</string>
+    <string name="Year">Ano</string>
+    <string name="Username">Utilizador</string>
+    <string name="Password">Palavra-Passe</string>
+    <string name="new_added_student">Nov@ alun@ adicionad@ com sucesso!</string>
+    <string name="new_added_class">Nova turma adicionada com sucesso!</string>
+    <string name="wrong_phone_number">Por favor, insira um número de telemóvel válido!</string>
+    <string name="wrong_address">Erro! Por favor, insira uma morada.</string>
+    <string name="wrong_email">Erro! Por favor, verifique o email.</string>
+    <string name="student_updated">Alun@ editad@ com sucesso!</string>
+    <string name="student_removed">Alun@ removid@ com sucesso!</string>
+    <string name="class_removed">Turma removida com sucesso!</string>
+    <string name="class_updated">Turma atualizada com sucesso!</string>
+    <string name="successful_login">Autenticação Bem-Sucedida!</string>
+    <string name="wrong_login">Dados de acesso inválidos!</string>
+    <string name="fill_all_login">Por favor, preencha todos os dados!</string>
+    <string name="disconnected">Obrigado, volte sempre!</string>
+    <string name="wrong_year">Por favor, preencha o ano da turma.</string>
+    <string name="invalid_data">Por favor, preencha corretamente os dados antes de avançar!</string>
+
+
+
+
+</resources>

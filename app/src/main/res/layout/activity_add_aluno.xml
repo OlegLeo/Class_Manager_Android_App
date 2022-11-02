@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.AddAlunoActivity"
+    android:background="#FF03DAC5"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="100dp"
+        >
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="35sp"
+            android:text="@string/Name">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/et_adicionar_nome"
+            android:layout_width="194dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+            android:text="">
+
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="35sp"
+            android:text="@string/Address">
+        </TextView>
+
+        <EditText
+            android:layout_marginLeft="70dp"
+            android:id="@+id/et_adicionar_morada"
+            android:layout_width="194dp"
+            android:layout_height="wrap_content"
+            android:text="">
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_textoemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="35sp"
+            android:text="Email">
+        </TextView>
+
+        <EditText
+            android:id="@+id/et_adicionar_email"
+            android:layout_width="194dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:text="">
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_textotelefone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:textSize="35sp"
+            android:text="@string/Phone_Number"
+            android:textColor="@color/black"
+            android:autoLink="phone"
+            >
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/et_adicionar_telefone"
+            android:layout_width="194dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_marginLeft="55dp"
+            android:text="">
+
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        >
+
+
+        <TextView
+            android:id="@+id/tv_texto_turma_activityalunos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="35sp"
+            android:text="@string/Class"
+            android:layout_marginBottom="5dp"/>
+
+        <Spinner
+            android:id="@+id/spinner_adicionar_turma"
+
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="110dp"
+            android:backgroundTint="@color/black"
+            android:textSize="100sp" />
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_adicionar_aluno"
+        android:layout_width="294dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:text="@string/Add">
+
+    </Button>
+
+        <Button
+            android:id="@+id/bt_cancelar_adicionar_aluno"
+            android:layout_width="294dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/white"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:text="@string/Cancel">
+
+        </Button>
+
+
+
+
+
+
+</LinearLayout>

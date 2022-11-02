@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.LoginActivity"
+    android:gravity="center"
+    android:background="#FF03DAC5"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-70dp"
+        android:textColor="@color/white"
+        android:text="@string/login"
+        android:textSize="40sp"
+        android:gravity="center">
+    </TextView>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="270dp"
+        android:layout_marginTop="-30dp"
+        android:src="@drawable/aaaa" />
+
+    <EditText
+        android:id="@+id/et_user"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/Username"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
+        android:text=""
+        android:textSize="30dp">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/Password"
+        android:inputType="textPassword"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:text=""
+        android:textSize="30dp">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/bt_submitlogin"
+        android:layout_marginTop="80dp"
+        android:layout_width="294dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:text="@string/SignIn"
+        android:textSize="30sp">
+    </Button>
+
+
+</LinearLayout>

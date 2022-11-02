@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF03DAC5"
+    tools:context=".views.AlunosActivity"
+    android:orientation="vertical"
+    tools:ignore="ExtraText">
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+
+
+
+        <TextView
+            android:id="@+id/tv_textonome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:text="@string/Name">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/et_editarnome"
+            android:layout_width="194dp"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:backgroundTint="@color/white"
+            android:layout_marginLeft="100dp"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+            android:text="">
+
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/tv_textomorada"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:text="@string/Address">
+        </TextView>
+
+        <EditText
+            android:layout_marginLeft="70dp"
+            android:id="@+id/et_editarmorada"
+            android:layout_width="194dp"
+            android:textSize="25sp"
+            android:backgroundTint="@color/white"
+            android:layout_height="wrap_content"
+            android:text="">
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tv_textoemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:text="Email">
+        </TextView>
+
+        <EditText
+            android:id="@+id/et_editaremail"
+            android:layout_width="194dp"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:backgroundTint="@color/white"
+            android:layout_marginLeft="108dp"
+            android:text="">
+        </EditText>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_textotelefone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:text="@string/Phone_Number"
+            android:autoLink="phone"
+            >
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/et_editartelefone"
+            android:layout_width="194dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="58dp"
+            android:textSize="25sp"
+            android:backgroundTint="@color/white"
+            android:inputType="number"
+            android:text="">
+
+        </EditText>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+
+        <TextView
+            android:id="@+id/tv_texto_turma_activityalunos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:text="@string/Class"
+            android:layout_marginBottom="5dp"/>
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="110dp"
+                android:backgroundTint="@color/black"
+                android:textSize="100sp" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+
+
+        <Button
+            android:id="@+id/bt_removeraluno"
+            android:layout_width="match_parent"
+            android:backgroundTint="#FF018786"
+            android:textSize="13sp"
+            android:layout_height="wrap_content"
+            android:text="@string/Remove">
+        </Button>
+
+
+        <Button
+            android:id="@+id/bt_cancelareditaraluno"
+            android:layout_marginStart="12dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:textSize="13sp"
+            android:textColor="@color/black"
+            android:text="@string/Cancel">
+
+        </Button>
+
+        <Button
+            android:id="@+id/bt_atualizaraluno"
+            android:layout_marginStart="12dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:textSize="13sp"
+            android:textColor="@color/black"
+            android:text="@string/Update">
+        </Button>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_alunos"
+        android:layout_width="match_parent"
+        android:layout_height="342dp"
+        android:layout_marginTop="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="268dp" />
+
+
+
+
+    <Button
+        android:id="@+id/bt_adicionaraluno"
+        android:layout_marginTop="5dp"
+        android:layout_width="294dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:text="@string/Add">
+    </Button>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        android:gravity="center">
+
+
+        <Button
+            android:id="@+id/bt_ordenar_aluno_maior"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:background="@drawable/up">
+        </Button>
+
+        <Button
+            android:id="@+id/bt_ordenar_aluno_menor"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:backgroundTint="@color/black"
+            android:textSize="20sp"
+            android:background="@drawable/down">
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

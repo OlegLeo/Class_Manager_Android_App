@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.AlunosActivity$MenuPrincipalActivity"
+    android:background="#FF03DAC5"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/MainMenu"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_marginTop="65dp"
+        android:textSize="40sp">
+
+    </TextView>
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="372dp"
+        android:layout_height="181dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-25dp"
+        android:src="@drawable/aaa" />
+
+    <Button
+        android:layout_marginTop="40dp"
+        android:id="@+id/bt_mostrarturmas"
+        android:layout_width="294dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:text="@string/Classes"
+        tools:ignore="MissingConstraints">
+    </Button>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/bt_mostraralunos"
+        android:layout_width="294dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:text="@string/Students"
+        tools:ignore="MissingConstraints">
+    </Button>
+
+    <Button
+        android:layout_marginTop="100dp"
+        android:id="@+id/bt_logout"
+        android:layout_width="294dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:text="@string/Logout"
+        android:textSize="30sp"
+        tools:ignore="MissingConstraints">
+    </Button>
+
+</LinearLayout>

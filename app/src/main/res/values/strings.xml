@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name" translatable="false">Class Manager</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="SignIn">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="login">Login</string>
+    <string name="about">About</string>
+    <string name="GoBack">Go Back</string>
+    <string name="MainMenu">Main Menu</string>
+    <string name="Classes">Classes</string>
+    <string name="Class">Class</string>
+    <string name="Students">Students</string>
+    <string name="Logout">Logout</string>
+    <string name="Year">Year</string>
+    <string name="Definition">Definition</string>
+    <string name="Remove">Remove</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Update">Update</string>
+    <string name="Add">Add</string>
+    <string name="Name">Name</string>
+    <string name="Address">Address</string>
+    <string name="Phone_Number">Phone Number</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="new_added_student">New student added successfully!</string>
+    <string name="new_added_class">New class added successfully!</string>
+    <string name="wrong_phone_number">Please enter a valid mobile number!</string>
+    <string name="wrong_year">Please enter a valid class year!</string>
+    <string name="wrong_address">Error! Please make sure that the address field is filled.</string>
+    <string name="wrong_email">Error! Please make sure that the address field is correctly filled.</string>
+    <string name="student_updated">Student was successfully updated!</string>
+    <string name="student_removed">Student was successfully removed!</string>
+    <string name="class_removed">Class was successfully removed!</string>
+    <string name="class_updated">Student was successfully updated!</string>
+    <string name="successful_login">Successful Login.</string>
+    <string name="wrong_login">Ups, invalid login!</string>
+    <string name="fill_all_login">Please fill in all the fields!</string>
+    <string name="disconnected">Disconnected from your account!</string>
+    <string name="invalid_data">Please make sure to insert the correct information!</string>
+
+
+</resources>
